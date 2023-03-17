@@ -6,7 +6,6 @@
  * main - Entry point
  *
  * Description: 'the program's lastdigit'
- * @parameter: describe the parameter
  *
  * Return: Always 0 (Success)
  *//* betty style doc for function main goes there */
