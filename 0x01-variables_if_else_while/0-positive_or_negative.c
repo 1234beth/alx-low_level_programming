@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * main - prints wheather the number is negative or positive
- *
- * Return: Always 0 (Success)
- */
+* main - prints wheather the number is negative or positive
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 int n;
