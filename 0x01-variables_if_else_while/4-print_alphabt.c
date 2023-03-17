@@ -5,17 +5,12 @@
  * Return: Always 0 (Success)
  */
 int main(void)
+char c;
+for (c = 'a' ; c <= 'z' ; c++)
 {
-char low, e, q;
-
-e ='e';
-q = 'q';
-
-for (low = 'a' ; low <= 'z' ; low++)
+if ((c == 'q' || c == 'e') != 1)
 {
-if (low == 'e' && low != 'q')
-{
-putchar(low);
+putchar(c);
 }
 putchar('\n');
 return (0);
