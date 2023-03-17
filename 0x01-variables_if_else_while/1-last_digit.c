@@ -2,7 +2,15 @@
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
-/* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ * 
+ * Description: 'the program's lastdigit'
+ * @parameter: describe the parameter
+ * 
+ * Return: Always 0 (Success)
+ *//* betty style doc for function main goes there */
+
 int main(void)
 
 {
