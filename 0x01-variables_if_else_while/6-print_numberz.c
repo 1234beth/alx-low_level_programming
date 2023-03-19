@@ -5,14 +5,15 @@
  * main - Entry point
  * Return: Always 0 (Success)
  */
+
 int main(void)
 
 {
 
-int d;
+int c;
 
-for(d = "0"; d <= "9"; d++)
-puts(d);
-puts("\n");
+for(c = "0"; c <= "9"; d++)
+putchar(c);
+putchar("\n");
 return (0);
 }
