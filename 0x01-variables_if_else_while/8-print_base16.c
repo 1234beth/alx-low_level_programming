@@ -16,6 +16,6 @@ for(d = 97; d < 103; d++)
 {
 putchar(d);
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
