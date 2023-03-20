@@ -1,20 +1,24 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
+/**
+* main - <some text here>
+* <more text here if necessary>
+* Return: <some text here>
+*/
 
-/* betty style doc for function main goes there */
 int main(void)
 {
 int n;
-for (n = "0"; n <= "9"; n++)
+for (n = 0; n <= 9; n++)
 {
 putchar(n);
-if(n != "9")
+if(n != 9)
 {
-putchar( ",");
-putchar(" ");
+putchar( ',');
+putchar(' ');
 }
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
