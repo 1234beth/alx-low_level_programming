@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-  *print_array - prints elements of an array
+  * print_array - prints elements of an array
   * @a: array of integers
   * @n: number of arrays to be printed
   * return: void
@@ -22,5 +22,5 @@ void print_array(int a , int n)
 			printf(",");
 		}
 	}
-	print("\n");
+	printf("\n");
 }
