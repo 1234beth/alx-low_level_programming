@@ -8,6 +8,7 @@
 
 size_t _strlen(const char *str)
 
+	/* the function that returns the length of a string */
 {
 
 	size_t length = 0;
