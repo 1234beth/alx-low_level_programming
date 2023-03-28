@@ -6,11 +6,11 @@
   *return: the length of @str.
   */
 
-int _strlen(char *s);
+size_t _strlen(char *str);
 	/* the function that returns the length of a string */
 {
 
-	int length = 0;
+	size_t length = 0;
 
 	while (*str++)
 		length++;
