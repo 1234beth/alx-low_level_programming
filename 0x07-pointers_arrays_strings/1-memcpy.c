@@ -3,8 +3,8 @@
 
 /**
  * _memcpy - copies the memory area
- * @dest - where memory is stored
- * @src - where memory is copied
+ * @dest: memory is stored
+ * @src: memory is copied
  * @n: number of bytes
  *
  * Return: copied memory with bytes changed
